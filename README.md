@@ -113,7 +113,7 @@ Push to the repository's main branch — Netlify auto-deploys from the root dire
 
 ## AI-Assisted Development
 
-This project includes a [Claude Code skill](/.claude/skills/ui-skills/) (`ui-skills`) that enforces opinionated UI constraints when working with AI coding agents. Invoke it with `/ui-skills` in Claude Code to apply layout, animation, typography, and accessibility rules to any changes.
+This project includes a [Claude Code skill](./.claude/skills/ui-skills/SKILL.md) (`ui-skills`) that enforces opinionated UI constraints when working with AI coding agents. Invoke it with `/ui-skills` in Claude Code to apply layout, animation, typography, and accessibility rules to any changes.
 
 ## License
 
