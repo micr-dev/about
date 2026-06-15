@@ -311,6 +311,16 @@
       }
     ]
   },
+  "favouriteBrands": {
+    "displayName": "Favourite Brands",
+    "type": "designerImages",
+    "items": [
+      {
+        "name": "The Space Between Us",
+        "image": "space-between-us.png"
+      }
+    ]
+  },
   "fragrances": {
     "displayName": "Fragrances",
     "type": "P",
@@ -986,27 +996,8 @@
       }
     ]
   },
-  "favouriteTuiFramework": {
-    "displayName": "Favourite TUI Framework",
-    "type": "R",
-    "items": [
-      {
-        "title": "bubbletea"
-      }
-    ]
-  },
-  "favouriteBrands": {
-    "displayName": "Favourite Brands",
-    "type": "designerImages",
-    "items": [
-      {
-        "name": "The Space Between Us",
-        "image": "space-between-us.png"
-      }
-    ]
-  },
   "lastUpdated": {
     "type": "lastUpdated",
-    "text": "last updated: 19 apr 2026"
+    "text": "last updated: 15 jun 2026"
   }
 }
