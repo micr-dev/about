@@ -753,6 +753,10 @@
       {
         "title": "glacier",
         "right": "Artist / Hobbyist / YouTuber"
+      },
+      {
+        "title": "Toby Fox",
+        "right": "Game Developer / Composer"
       }
     ]
   },
@@ -990,8 +994,5 @@
       }
     ]
   },
-  "lastUpdated": {
-    "type": "lastUpdated",
-    "text": "last updated: 15 jun 2026"
-  }
+  "lastUpdated": "2026-06-25"
 }
