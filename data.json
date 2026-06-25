@@ -994,5 +994,8 @@
       }
     ]
   },
-  "lastUpdated": "2026-06-25"
+  "lastUpdated": {
+    "type": "lastUpdated",
+    "text": "last updated: 25 jun 2026"
+  }
 }
