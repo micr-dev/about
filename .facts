@@ -1,0 +1,7 @@
+
+# website
+
+## mobile
+- label: the about page renders its real content on mobile instead of hiding behind a blocker
+  command: ! grep -R -q 'mobile-blocker\|come back on desktop\|kms' index.html style.css script.js && grep -q '@media (max-width: 768px)' style.css && grep -q 'grid-template-columns: 1fr' style.css
+  tags: [spec, implemented]

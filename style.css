@@ -386,4 +386,109 @@ a:hover:not(.masked-link) {
   margin-top: 2rem;
 }
 
-/* Note: mobile rotate hack removed (you already block mobile) */
+@media (max-width: 768px) {
+  :root {
+    --hero-height: auto;
+  }
+
+  html,
+  body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+    width: 100%;
+  }
+
+  .left-column {
+    width: 100%;
+    min-width: 0;
+    padding: 28px 22px 0;
+    font-size: 12px;
+    line-height: 1.22;
+  }
+
+  .right-fixed {
+    position: static;
+    transform: none;
+    z-index: auto;
+    width: 100%;
+    padding: 0 22px 28px;
+  }
+
+  .hero-wrap {
+    display: block;
+    width: min(100%, 360px);
+    min-width: 0;
+    min-height: 0;
+    margin: 0 auto;
+  }
+
+  .hero-img {
+    width: 100%;
+    max-height: none;
+  }
+
+  .masked-link {
+    cursor: pointer;
+  }
+
+  .intro-header,
+  .intro-body,
+  .intro-text,
+  .category,
+  .item,
+  .runway-item,
+  .fonts-item {
+    max-width: 100%;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .item {
+    display: block;
+  }
+
+  .p-grid-container,
+  .skeleton-grid {
+    grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+    max-width: 100%;
+  }
+
+  .p-grid-container img,
+  .p-grid-container .placeholder {
+    width: 100%;
+    max-width: 60px;
+  }
+
+  .fragrances-grid img,
+  .fragrances-grid .placeholder {
+    max-width: 40px;
+  }
+
+  .epsAlbums-grid img,
+  .epsAlbums-grid .placeholder {
+    max-width: 60px;
+  }
+
+  .designer-grid {
+    grid-template-columns: repeat(auto-fill, minmax(86px, 1fr));
+    max-width: 100%;
+  }
+
+  .designer-grid img,
+  .designer-grid .placeholder {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  .custom-cursor {
+    display: none !important;
+  }
+}
