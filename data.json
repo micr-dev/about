@@ -977,6 +977,9 @@
     "items": [
       {
         "title": "qalli"
+      },
+      {
+        "title": "autoau"
       }
     ]
   },
@@ -991,6 +994,6 @@
   },
   "lastUpdated": {
     "type": "lastUpdated",
-    "text": "last updated: 25 jun 2026"
+    "text": "last updated: 19 jul 2026"
   }
 }
