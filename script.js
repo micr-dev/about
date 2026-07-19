@@ -178,10 +178,15 @@ function render(data) {
       details.items.sort((a, b) => a.year - b.year);
     }
 
-    if (details.type === "R" && details.items.length === 1) {
+    if (
+      details.type === "R" &&
+      details.items.every((i) => !i.right && !(i.spotify || i.link))
+    ) {
       section.classList.add("inline-category");
       const titleText = details.displayName || category;
-      const valueText = details.items[0].title || details.items[0].name;
+      const valueText = details.items
+        .map((i) => i.title || i.name)
+        .join(", ");
       const dots = getDots(
         titleText,
         valueText,
