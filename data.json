@@ -176,6 +176,10 @@
         "image": "undertale.png"
       },
       {
+        "name": "Deltarune",
+        "image": "deltarune.jpg"
+      },
+      {
         "name": "Celeste",
         "image": "celeste.jpg"
       },
@@ -994,6 +998,6 @@
   },
   "lastUpdated": {
     "type": "lastUpdated",
-    "text": "last updated: 19 jul 2026"
+    "text": "last updated: 23 jul 2026"
   }
 }
