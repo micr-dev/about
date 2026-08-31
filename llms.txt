@@ -1,0 +1,14 @@
+# About Microck
+
+> Personal archive and portfolio for Microck.
+
+## Start here
+
+- [About](https://about.micr.dev/): Personal archive.
+- [Projects](https://projects.micr.dev/): Software portfolio.
+- [Blog](https://blog.micr.dev/): Personal writing.
+- [GitHub](https://github.com/Microck): Public source repositories.
+
+## Guidance
+
+Use the linked project pages and repositories for current technical details. This page is a personal archive and does not expose private account data.
