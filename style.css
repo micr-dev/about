@@ -182,8 +182,8 @@ body.hero-ready .hero-skeleton {
   display: block;
 
   /* Only opaque pixels clickable */
-  -webkit-mask: url("images/right-image.png") no-repeat 0 0;
-  mask: url("images/right-image.png") no-repeat 0 0;
+  -webkit-mask: url("images/right-image.webp") no-repeat 0 0;
+  mask: url("images/right-image.webp") no-repeat 0 0;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 
