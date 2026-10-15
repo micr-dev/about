@@ -557,6 +557,21 @@
         "name": "The Dimrain47 Collection (2005-2012) - Dimrain47",
         "image": "dimrain47.png",
         "spotify": "https://open.spotify.com/album/1RYUJrOD6fJk5omObyRQ3m"
+      },
+      {
+        "name": "La ley innata - Extremoduro",
+        "image": "spotify-1GYJUlbVr5FuNU7awwMGzu.jpg",
+        "spotify": "https://open.spotify.com/album/1GYJUlbVr5FuNU7awwMGzu"
+      },
+      {
+        "name": "In This World",
+        "image": "spotify-0DKsw8XT9NGCvZdlHeCjJ5.jpg",
+        "spotify": "https://open.spotify.com/album/0DKsw8XT9NGCvZdlHeCjJ5"
+      },
+      {
+        "name": "Apiary",
+        "image": "spotify-09cVN2phRh84MiWZ7lszU4.jpg",
+        "spotify": "https://open.spotify.com/album/09cVN2phRh84MiWZ7lszU4"
       }
     ]
   },
@@ -998,6 +1013,6 @@
   },
   "lastUpdated": {
     "type": "lastUpdated",
-    "text": "last updated: 23 jul 2026"
+    "text": "last updated: 15 oct 2026"
   }
 }
