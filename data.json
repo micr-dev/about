@@ -1000,18 +1000,6 @@
       }
     ]
   },
-  "gdLayoutMaker": {
-    "displayName": "GD Layout Maker",
-    "type": "R",
-    "items": [
-      {
-        "title": "qalli"
-      },
-      {
-        "title": "autoau"
-      }
-    ]
-  },
   "learningPattern": {
     "displayName": "Learning Pattern",
     "type": "R",
