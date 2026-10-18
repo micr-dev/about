@@ -461,6 +461,11 @@
         "title": "roomtrash6",
         "right": "Rap / Trap",
         "spotify": "https://open.spotify.com/artist/1VdDHkm5XpSy9OZiNTCzjE"
+      },
+      {
+        "title": "Robe",
+        "right": "Spanish Rock / Progressive Rock",
+        "spotify": "https://open.spotify.com/artist/3WQRkINylwwkw1Ya07ToRK"
       }
     ]
   },
@@ -678,6 +683,11 @@
         "title": "tercer movimiento: lo de dentro",
         "right": "extremoduro",
         "spotify": "https://open.spotify.com/track/2mKqV7k5GqZ3pY1oJ0K5a"
+      },
+      {
+        "title": "Jesucristo García",
+        "right": "extremoduro",
+        "spotify": "https://open.spotify.com/track/3F6cwOD0DCT4CvmNAaEln4"
       },
       {
         "title": "perras y porros",
@@ -1013,6 +1023,6 @@
   },
   "lastUpdated": {
     "type": "lastUpdated",
-    "text": "last updated: 15 oct 2026"
+    "text": "last updated: 18 oct 2026"
   }
 }
