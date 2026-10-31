@@ -1,9 +1,17 @@
-/* === FONT === */
+/* Generated font faces: scripts/subset-fonts.py */
 @font-face {
   font-family: "DecimaMono";
-  src: url("fonts/DecimaMono.ttf") format("truetype");
+  src: url("fonts/decima-mono-core.woff2") format("woff2");
   font-display: block;
+  unicode-range: U+0020-007E, U+2013-2014, U+2018-2019, U+201C-201D, U+2026;
 }
+@font-face {
+  font-family: "DecimaMono";
+  src: url("fonts/decima-mono-extended.woff2") format("woff2");
+  font-display: block;
+  unicode-range: U+00A1-017E;
+}
+/* End generated font faces */
 
 /* === RESET/BASE === */
 *,

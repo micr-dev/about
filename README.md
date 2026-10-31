@@ -26,7 +26,11 @@ Modern desktop and mobile browsers. Desktop keeps the fixed two-column archive l
 +-- style.css           # Layout, skeleton shimmer, grids, custom cursor
 +-- data.json           # All profile content (intro, series, music, etc.)
 +-- fonts/
-|   +-- DecimaMono.ttf  # Primary monospace font (preloaded)
+|   +-- DecimaMono.ttf             # Original manual-processing input
+|   +-- decima-mono-core.woff2     # Preloaded ASCII and common punctuation
+|   +-- decima-mono-extended.woff2 # Latin extension, loaded on demand
++-- scripts/subset-fonts.py       # Manual font generation, never a build step
++-- docs/fonts.md                # Rerun instructions, measurements, pixel proof
 +-- images/             # Game covers, album art, designer logos, hero image
 +-- .claude/
 |   +-- skills/         # Claude Code skill constraints for UI work
@@ -69,6 +73,10 @@ php -S localhost:8000
 ```
 
 Open `http://localhost:8000` in your browser.
+
+### Font maintenance
+
+Run `scripts/subset-fonts.py` by hand after content or font/style changes and commit its two WOFF2 outputs and generated CSS. Deployment does not process fonts. See [font maintenance and pixel proof](docs/fonts.md) for the pinned Python tools, rendering constraints, byte measurements, and before/after screenshots.
 
 ## Customization
 

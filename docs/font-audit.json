@@ -1,0 +1,712 @@
+{
+  "baseline_revision": "f5ae9223",
+  "tools": {
+    "fonttools": "4.62.1",
+    "brotli": "1.2.0",
+    "chromium": "156.0.8078.47",
+    "platform": "Linux-6.8.0-1058-oracle-aarch64-with-glibc2.35"
+  },
+  "original_fonts": [
+    {
+      "file": "Acumin-Variable-Concept.ttf",
+      "bytes": 1029036,
+      "glyphs": 348,
+      "characters": 190,
+      "axes": [
+        [
+          "wght",
+          100.0,
+          194.28570556640625,
+          900.0
+        ],
+        [
+          "wdth",
+          50.0,
+          100.0,
+          115.0
+        ],
+        [
+          "slnt",
+          0.0,
+          0.0,
+          12.0
+        ]
+      ],
+      "features": {
+        "GSUB": [
+          "case",
+          "dnom",
+          "frac",
+          "liga",
+          "numr",
+          "ordn",
+          "pnum",
+          "rvrn",
+          "salt",
+          "sinf",
+          "ss01",
+          "subs",
+          "sups",
+          "tnum",
+          "xxxx",
+          "zero"
+        ],
+        "GPOS": [
+          "kern"
+        ]
+      },
+      "hint_tables": [],
+      "hinted_glyphs": null,
+      "license": [
+        "\u00a9 2014 Adobe Systems Incorporated. All Rights Reserved.",
+        "http://www.adobe.com/type/legal.html"
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "AlteHaasGroteskBold.ttf",
+      "bytes": 144556,
+      "glyphs": 268,
+      "characters": 264,
+      "axes": [],
+      "features": {
+        "GSUB": [
+          "ccmp",
+          "liga"
+        ],
+        "GPOS": [
+          "kern"
+        ]
+      },
+      "hint_tables": [
+        "fpgm",
+        "prep",
+        "cvt ",
+        "hdmx",
+        "VDMX",
+        "LTSH"
+      ],
+      "hinted_glyphs": 216,
+      "license": [
+        "Copyright (c) 2007 by Yann Le Coroller. All rights reserved."
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "BONNES.ttf",
+      "bytes": 28552,
+      "glyphs": 169,
+      "characters": 175,
+      "axes": [],
+      "features": {
+        "GSUB": [
+          "liga"
+        ],
+        "GPOS": [
+          "kern"
+        ]
+      },
+      "hint_tables": [],
+      "hinted_glyphs": 0,
+      "license": [
+        "Artnivora Std \u00a92023"
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "DecimaMono.ttf",
+      "bytes": 94392,
+      "glyphs": 644,
+      "characters": 641,
+      "axes": [],
+      "features": {
+        "GSUB": [
+          "dnom",
+          "frac",
+          "liga",
+          "numr",
+          "sinf",
+          "sups",
+          "zero"
+        ],
+        "GPOS": []
+      },
+      "hint_tables": [],
+      "hinted_glyphs": 0,
+      "license": [
+        "Copyright (c) 2012 by TipografiaRamis. All rights reserved."
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "DecimaPro.ttf",
+      "bytes": 147144,
+      "glyphs": 565,
+      "characters": 558,
+      "axes": [],
+      "features": {
+        "GSUB": [
+          "dnom",
+          "frac",
+          "liga",
+          "numr",
+          "pnum",
+          "salt",
+          "sinf",
+          "sups",
+          "tnum",
+          "zero"
+        ],
+        "GPOS": [
+          "kern"
+        ]
+      },
+      "hint_tables": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "hinted_glyphs": 561,
+      "license": [
+        "Copyright (c) 2014 by Ramiz Guseynov. All rights reserved."
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "Dutch 801 Bold BT.ttf",
+      "bytes": 48268,
+      "glyphs": 260,
+      "characters": 257,
+      "axes": [],
+      "features": {},
+      "hint_tables": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "hinted_glyphs": 189,
+      "license": [
+        "Copyright 1990-1993 Bitstream Inc.  All rights reserved."
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "Roboto-Regular.ttf",
+      "bytes": 158604,
+      "glyphs": 1037,
+      "characters": 878,
+      "axes": [],
+      "features": {
+        "GSUB": [
+          "liga",
+          "smcp"
+        ],
+        "GPOS": [
+          "kern"
+        ]
+      },
+      "hint_tables": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "hinted_glyphs": 892,
+      "license": [
+        "Font data copyright Google 2011"
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "TerminusTTF-4.49.3.ttf",
+      "bytes": 500668,
+      "glyphs": 1359,
+      "characters": 1356,
+      "axes": [],
+      "features": {},
+      "hint_tables": [
+        "cvt "
+      ],
+      "hinted_glyphs": 1,
+      "license": [
+        "Copyright (C) 2020 Dimitar Toshkov Zhekov; Copyright (C) 2023 Tilman Blumenbach; Licensed under the SIL Open Font License, Version 1.1"
+      ],
+      "reserved_font_name_notice": false
+    },
+    {
+      "file": "monbaiti.ttf",
+      "bytes": 356576,
+      "glyphs": 1824,
+      "characters": 402,
+      "axes": [],
+      "features": {
+        "GSUB": [
+          "calt",
+          "ccmp",
+          "fina",
+          "init",
+          "isol",
+          "medi",
+          "rlig",
+          "vert"
+        ],
+        "GPOS": [
+          "mark"
+        ]
+      },
+      "hint_tables": [
+        "fpgm",
+        "prep",
+        "cvt ",
+        "hdmx",
+        "VDMX",
+        "LTSH"
+      ],
+      "hinted_glyphs": 980,
+      "license": [
+        "\u00a9 2006 Founder Corporation, all rights reserved. Portions \u00a9 2006 Microsoft Corporation, all rights reserved.",
+        "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content.",
+        "http://www.microsoft.com/typography/fonts"
+      ],
+      "reserved_font_name_notice": false
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "desktop",
+      "width": 1425,
+      "height": 3622,
+      "changed_pixels": 0,
+      "total_pixels": 5161350,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "mobile",
+      "width": 375,
+      "height": 4299,
+      "changed_pixels": 0,
+      "total_pixels": 1612125,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "fixture",
+      "width": 1440,
+      "height": 1000,
+      "changed_pixels": 0,
+      "total_pixels": 1440000,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "ascii",
+      "width": 1440,
+      "height": 1000,
+      "changed_pixels": 0,
+      "total_pixels": 1440000,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "accent",
+      "width": 1440,
+      "height": 1000,
+      "changed_pixels": 0,
+      "total_pixels": 1440000,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "cjk",
+      "width": 1440,
+      "height": 1000,
+      "changed_pixels": 0,
+      "total_pixels": 1440000,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "desktop-2x",
+      "width": 2850,
+      "height": 7244,
+      "changed_pixels": 0,
+      "total_pixels": 20645400,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "fixture-2x",
+      "width": 2880,
+      "height": 2000,
+      "changed_pixels": 0,
+      "total_pixels": 5760000,
+      "max_channel_delta": 0,
+      "same_text": true
+    },
+    {
+      "case": "hover",
+      "width": 1425,
+      "height": 3622,
+      "changed_pixels": 0,
+      "total_pixels": 5161350,
+      "max_channel_delta": 0,
+      "same_text": true
+    }
+  ],
+  "requests": [
+    {
+      "label": "desktop",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": [
+        "fonts/DecimaMono.ttf"
+      ]
+    },
+    {
+      "label": "desktop",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": [
+        "fonts/decima-mono-core.woff2"
+      ]
+    },
+    {
+      "label": "mobile",
+      "variant": "baseline",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": [
+        "fonts/DecimaMono.ttf"
+      ]
+    },
+    {
+      "label": "mobile",
+      "variant": "optimized",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": [
+        "fonts/decima-mono-core.woff2"
+      ]
+    },
+    {
+      "label": "fixture",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": [
+        "fonts/DecimaMono.ttf"
+      ]
+    },
+    {
+      "label": "fixture",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": [
+        "fonts/decima-mono-core.woff2"
+      ]
+    },
+    {
+      "label": "ascii",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "label": "ascii",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "label": "accent",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "label": "accent",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "label": "cjk",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "label": "cjk",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "label": "desktop-2x",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 2,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": [
+        "fonts/DecimaMono.ttf"
+      ]
+    },
+    {
+      "label": "desktop-2x",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 2,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": [
+        "fonts/decima-mono-core.woff2"
+      ]
+    },
+    {
+      "label": "fixture-2x",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 2,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": [
+        "fonts/DecimaMono.ttf"
+      ]
+    },
+    {
+      "label": "fixture-2x",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 2,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": [
+        "fonts/decima-mono-core.woff2"
+      ]
+    },
+    {
+      "label": "hover",
+      "variant": "baseline",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "DecimaMono.ttf",
+          "bytes": 94392
+        }
+      ],
+      "preloads": [
+        "fonts/DecimaMono.ttf"
+      ]
+    },
+    {
+      "label": "hover",
+      "variant": "optimized",
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "fonts": [
+        {
+          "file": "decima-mono-core.woff2",
+          "bytes": 5700
+        },
+        {
+          "file": "decima-mono-extended.woff2",
+          "bytes": 9528
+        }
+      ],
+      "preloads": [
+        "fonts/decima-mono-core.woff2"
+      ]
+    }
+  ],
+  "sha256": {
+    "baseline-desktop.png": "f80caaea54ab9925755d9f26048766474fda36fef2351c4e6d536c5c1e4e6eb9",
+    "optimized-desktop.png": "f80caaea54ab9925755d9f26048766474fda36fef2351c4e6d536c5c1e4e6eb9",
+    "diff-desktop.png": "118aa5ab6b2ae204e18424e138596edd969db19d108a41f2f7c978e50629a773",
+    "baseline-mobile.png": "2a1714be0871b9e528dfe101576119ff20e72433a0c26a9c15621ba75119c479",
+    "optimized-mobile.png": "2a1714be0871b9e528dfe101576119ff20e72433a0c26a9c15621ba75119c479",
+    "diff-mobile.png": "e44ac513b75853994855b78852fe88cae4ed1e8c17124f97c6865462856041ea",
+    "baseline-fixture.png": "942b185c1481fa5fb089d342bd10670f2816279920a5c88f2aec113fec928009",
+    "optimized-fixture.png": "942b185c1481fa5fb089d342bd10670f2816279920a5c88f2aec113fec928009",
+    "diff-fixture.png": "013fdd6a4204d7aa5d16f7b5d89497de9036d9a75611fcb04d49e5be14ca83c9",
+    "baseline-ascii.png": "47bc3160917a200723a01e6d82e76fdda982ed1cde41c57fdefc76918e4af3d7",
+    "optimized-ascii.png": "47bc3160917a200723a01e6d82e76fdda982ed1cde41c57fdefc76918e4af3d7",
+    "diff-ascii.png": "013fdd6a4204d7aa5d16f7b5d89497de9036d9a75611fcb04d49e5be14ca83c9",
+    "baseline-accent.png": "e90d4e4130ec0596dd2be1706d6c28187af9cf916b1638ce19bdf5369fc6ef7d",
+    "optimized-accent.png": "e90d4e4130ec0596dd2be1706d6c28187af9cf916b1638ce19bdf5369fc6ef7d",
+    "diff-accent.png": "013fdd6a4204d7aa5d16f7b5d89497de9036d9a75611fcb04d49e5be14ca83c9",
+    "baseline-cjk.png": "2024443808066e56d7b9d0a2760065ca1ea09974bc582dd41c460be44c654f1e",
+    "optimized-cjk.png": "2024443808066e56d7b9d0a2760065ca1ea09974bc582dd41c460be44c654f1e",
+    "diff-cjk.png": "013fdd6a4204d7aa5d16f7b5d89497de9036d9a75611fcb04d49e5be14ca83c9",
+    "baseline-desktop-2x.png": "3ebba7c604bd379e66717342d3138909f9726daad4aebcd3d275d4405933cb8b",
+    "optimized-desktop-2x.png": "3ebba7c604bd379e66717342d3138909f9726daad4aebcd3d275d4405933cb8b",
+    "diff-desktop-2x.png": "a7d0ba5509d5d000532fb0163d91f44f63d767bceaae9f5a864c51ccbbac7543",
+    "baseline-fixture-2x.png": "aef9496526a64aaa5d8b71f496532dc3efc51247a94a1b9363f2793028053e09",
+    "optimized-fixture-2x.png": "aef9496526a64aaa5d8b71f496532dc3efc51247a94a1b9363f2793028053e09",
+    "diff-fixture-2x.png": "f0e4a94f94df81c1aafcdd3ecd1412eec2b19e5b021367f656418dfd1c3038ea",
+    "baseline-hover.png": "ebbd33a2e155995f09451db72e1b0cf919dfa7c7209c2b9142e8a0ddd68e227e",
+    "optimized-hover.png": "ebbd33a2e155995f09451db72e1b0cf919dfa7c7209c2b9142e8a0ddd68e227e",
+    "diff-hover.png": "118aa5ab6b2ae204e18424e138596edd969db19d108a41f2f7c978e50629a773"
+  },
+  "source_sha256": {
+    "data.json": "ae4fdba14faa488116cb20eb7375abf930b9d98072f15c71afdb706581396863",
+    "script.js": "7dfd394357a3f6117a7c8a3b9742c2825fdd1653f3c73cd498bacc50ec8f8a4f",
+    "fonts/DecimaMono.ttf": "e82287824ce822fbfeb63567cf451bf22838a435ff3755e67f652d2f487ad7c2"
+  },
+  "optimized_fonts": [
+    {
+      "file": "decima-mono-core.woff2",
+      "bytes": 5700,
+      "glyphs": 105,
+      "characters": 102,
+      "sha256": "bc59cc1d19831888313e663313ad52570f905be1f55f3c0aba324498e721f433"
+    },
+    {
+      "file": "decima-mono-extended.woff2",
+      "bytes": 9528,
+      "glyphs": 253,
+      "characters": 251,
+      "sha256": "e373143e6779a14801bf6b7382d9625b4bf28bddbad114e21983d1452a8b8977"
+    }
+  ]
+}
