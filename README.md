@@ -43,7 +43,7 @@ Modern desktop and mobile browsers. Desktop keeps the fixed two-column archive l
 ## How It Works
 
 1. `index.html` loads with skeleton placeholder UI (shimmer animation while content loads).
-2. `script.js` waits for fonts and the hero image, then fetches `data.json`.
+2. `script.js` waits for fonts before fetching `data.json`. The hero image loads independently.
 3. Content is rendered dynamically based on each section's `type`:
    - **`intro`** - bio text with name header
    - **`T`** - timed items (title + year), sorted by year
@@ -56,6 +56,14 @@ Modern desktop and mobile browsers. Desktop keeps the fixed two-column archive l
    - **`lastUpdated`** - footer timestamp
 4. A custom floating cursor shows labels on image hover.
 5. Mobile visitors get the same archive content in a single-column layout.
+
+### Loading states
+
+The initial page contains only decorative skeletons, not an "About Microck" heading. The intro skeleton includes the name/pronoun row; text rows follow the content line height, and mobile image tiles use the same grid tracks as the loaded images.
+
+Content stays `aria-busy="true"` until rendering finishes or the load-error message appears. Text skeletons and the hero placeholder resolve independently. The hero placeholder overlays a reserved image area, disappears completely when ready, and does not leave an invisible shimmer running. Its link stays hidden until the image is ready. Reduced-motion preferences disable shimmer and the image fade.
+
+The hero's `width`/`height` attributes and desktop CSS height cap match its 2000×2407 source dimensions. Update both if replacing that image.
 
 ## Local Development
 

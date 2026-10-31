@@ -65,6 +65,10 @@ async function fetchData() {
 
 function syncReadyState() {
   const body = document.body;
+  document.getElementById("content").setAttribute(
+    "aria-busy",
+    String(!body.classList.contains("content-ready"))
+  );
   if (
     body.classList.contains("content-ready") &&
     body.classList.contains("hero-ready")

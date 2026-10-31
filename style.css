@@ -87,7 +87,8 @@ body {
   display: block;
   max-height: var(--hero-height); /* now 100vh */
   width: auto;
-  height: auto;
+  /* Reserve the same scaled size before the image's intrinsic data arrives. */
+  height: min(var(--hero-height), 2407px);
   pointer-events: none; /* clicks go to masked link */
   opacity: 0;
   transition: opacity 0.35s ease;
@@ -102,27 +103,43 @@ body.hero-ready .hero-img {
   inset: 0;
   border: 1px solid #e5e5e5;
   background: linear-gradient(135deg, #f8f8f8 0%, #ebebeb 100%);
-  transition: opacity 0.35s ease;
 }
 
 body.hero-ready .hero-skeleton {
-  opacity: 0;
-  pointer-events: none;
+  display: none;
 }
 
 .skeleton-block {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.5rem;
 }
 
 .skeleton-intro {
   margin-bottom: 2rem;
 }
 
+.skeleton-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skeleton-header .skeleton-name {
+  width: 7ch;
+}
+
+.skeleton-header .skeleton-pronouns {
+  width: 6ch;
+}
+
+.skeleton-line,
+.skeleton-label,
+.skeleton-tile {
+  position: relative;
+}
+
 .skeleton-line,
 .skeleton-label,
 .skeleton-tile,
 .hero-skeleton {
-  position: relative;
   overflow: hidden;
   background-color: var(--skeleton-base);
 }
@@ -155,7 +172,7 @@ body.hero-ready .hero-skeleton {
 .skeleton-line {
   width: 100%;
   height: 10px;
-  margin-bottom: 0.3rem;
+  margin-bottom: calc(1lh - 10px);
 }
 
 .skeleton-line-wide {
@@ -175,6 +192,7 @@ body.hero-ready .hero-skeleton {
 .skeleton-tile {
   width: 50px;
   height: 50px;
+  pointer-events: none;
 }
 
 @keyframes skeleton-shimmer {
@@ -188,6 +206,7 @@ body.hero-ready .hero-skeleton {
   position: absolute;
   inset: 0;
   display: block;
+  visibility: hidden;
 
   /* Only opaque pixels clickable */
   -webkit-mask: url("images/right-image.webp") no-repeat 0 0;
@@ -198,6 +217,10 @@ body.hero-ready .hero-skeleton {
   /* Tiny transparent bg to capture clicks */
   background: rgba(0, 0, 0, 0.001);
   z-index: 2;
+}
+
+body.hero-ready .masked-link {
+  visibility: visible;
 }
 
 /* Keep default arrow over the right image even though it's clickable */
@@ -439,6 +462,7 @@ a:hover:not(.masked-link) {
 
   .hero-img {
     width: 100%;
+    height: auto;
     max-height: none;
   }
 
@@ -475,6 +499,13 @@ a:hover:not(.masked-link) {
     max-width: 60px;
   }
 
+  .skeleton-tile {
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
   .fragrances-grid img,
   .fragrances-grid .placeholder {
     max-width: 40px;
@@ -498,5 +529,19 @@ a:hover:not(.masked-link) {
 
   .custom-cursor {
     display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-line::after,
+  .skeleton-label::after,
+  .skeleton-tile::after,
+  .hero-skeleton::after {
+    animation: none;
+    display: none;
+  }
+
+  .hero-img {
+    transition: none;
   }
 }
