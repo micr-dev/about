@@ -255,28 +255,6 @@
       }
     ]
   },
-  "runways": {
-    "displayName": "Runways",
-    "type": "runways",
-    "items": [
-      {
-        "runway": "AW01 RIOT! RIOT! RIOT!",
-        "designer": "Raf Simons"
-      },
-      {
-        "runway": "FW16",
-        "designer": "Yohji Yamamoto"
-      },
-      {
-        "runway": "FW06 But Beautiful",
-        "designer": "Undercover"
-      },
-      {
-        "runway": "AW04 Waves",
-        "designer": "Raf Simons"
-      }
-    ]
-  },
   "fashionDesignerImages": {
     "displayName": "Fashion Designers",
     "type": "designerImages",
