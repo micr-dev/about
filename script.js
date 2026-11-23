@@ -277,21 +277,6 @@ function render(data) {
         row.textContent = `${item.title}${dots}${item.right}`;
         section.appendChild(row);
       });
-    } else if (details.type === "runways") {
-      details.items.forEach((item) => {
-        const dots = getDots(
-          item.runway,
-          item.designer,
-          availableWidth,
-          defaultFont,
-          defaultFont,
-          defaultFont
-        );
-        const row = document.createElement("div");
-        row.classList.add("item", "runway-item");
-        row.textContent = `${item.runway}${dots}${item.designer}`;
-        section.appendChild(row);
-      });
     } else if (details.type === "P") {
       const gridContainer = document.createElement("div");
       gridContainer.classList.add("p-grid-container", `${category}-grid`);

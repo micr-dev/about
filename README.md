@@ -52,7 +52,6 @@ Modern desktop and mobile browsers. Desktop keeps the fixed two-column archive l
    - **`designerImages`** - fashion designer logo grid
    - **`colours`** - hex values with inline color swatches
    - **`fonts`** - font name rows with dot leaders
-   - **`runways`** - runway show rows
    - **`lastUpdated`** - footer timestamp
 4. A custom floating cursor shows labels on image hover.
 5. Mobile visitors get the same archive content in a single-column layout.
@@ -101,7 +100,6 @@ All content is in **`data.json`**. Edit it directly to add, remove, or reorder s
 | `designerImages` | `items[].name`, `items[].image?` | Logo grid |
 | `colours` | `items[].title` (hex) | Hex...[swatch] |
 | `fonts` | `items[].title`, `items[].right` | Font...Right |
-| `runways` | `items[].runway`, `items[].designer` | Runway...Designer |
 | `lastUpdated` | `text` | Small footer text |
 
 Each section uses `displayName` for its heading (defaults to the object key). Add new images to `images/` and reference them by filename.

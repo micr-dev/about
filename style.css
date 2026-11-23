@@ -372,10 +372,6 @@ body.hero-ready .masked-link {
   font-size: 14px;
 }
 
-.runway-item {
-  white-space: nowrap;
-}
-
 .fonts-item {
   display: inline-block;
   white-space: pre;
@@ -475,7 +471,6 @@ a:hover:not(.masked-link) {
   .intro-text,
   .category,
   .item,
-  .runway-item,
   .fonts-item {
     max-width: 100%;
     white-space: normal !important;
